@@ -20,14 +20,14 @@ app.config(['$routeProvider', function ($routeProvider) {
     }])
         .controller('ServicesController', [
             '$scope', '$http', function ($scope, $http) {
-                $http.get('services.json').then(function (response) {
+                $http.get('json/services.json').then(function (response) {
                     $scope.services = response.data;
                 });
             }
         ])
         .controller('ContactController', [
             '$scope', '$http', function ($scope, $http) {
-                $http.get('locations.json').then(function (response) {
+                $http.get('json/locations.json').then(function (response) {
                     $scope.locations = response.data;
                 });
             }
