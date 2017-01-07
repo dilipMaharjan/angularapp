@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Kathmandu",
+        "street_address": "231marg",
+        "city": "ktm",
+        "state": "K",
+        "zip": "01",
+        "phone": "1234556"
+    },
+    {
+        "id": 2,
+        "name": "Lalitpur",
+        "street_address": "123marg",
+        "city": "lalit",
+        "state": "L",
+        "zip": "06",
+        "phone": "654321"
+    },
+    {
+        "id": 3,
+        "name": "Bhaktapur",
+        "street_address": "333marg",
+        "city": "bhakt",
+        "state": "B",
+        "zip": "07",
+        "phone": "454545"
+    }
+]

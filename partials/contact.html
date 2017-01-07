@@ -2,19 +2,12 @@
     <h2>Contact</h2>
     <p>Email@ dilipmaharjann@mymail.com</p>
     <h3>Locations</h3>
-    <ul class="location">
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
-    </ul>
-    <ul class="location">
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
-    </ul>
-    <ul class="location">
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
-        <li>Some locaiton info</li>
+    <ul class="location" ng-repeat="location in locations">
+        <li>{{location.name}}</li>
+        <li>{{location.street_address}}</li>
+        <li>{{location.city}}</li>
+        <li>{{location.state}}</li>
+        <li>{{location.zip}}</li>
+        <li>{{location.phone}}</li>
     </ul>
 </div>
